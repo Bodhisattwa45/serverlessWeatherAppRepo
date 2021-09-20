@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-serverlessweather-dev-100837-authRole",
+      "UnauthRoleArn": "arn:aws:iam::622350882328:role/amplify-serverlessweather-dev-100837-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::622350882328:role/amplify-serverlessweather-dev-100837-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-serverlessweather-dev-100837-deployment",
+      "UnauthRoleName": "amplify-serverlessweather-dev-100837-unauthRole",
+      "StackName": "amplify-serverlessweather-dev-100837",
+      "StackId": "arn:aws:cloudformation:us-east-2:622350882328:stack/amplify-serverlessweather-dev-100837/4fce9070-183a-11ec-b2f9-06c15db72bfc",
+      "AmplifyAppId": "d2mscg6092tk2g"
+    },
+    "categories": {
+      "auth": {
+        "serverlessweatherd5c9a8e7": {}
+      },
+      "function": {
+        "weatherFunction": {
+          "deploymentBucketName": "amplify-serverlessweather-dev-100837-deployment",
+          "s3Key": "amplify-builds/weatherFunction-6c66536835596578482f-build.zip"
+        }
+      }
+    }
+  }
+}

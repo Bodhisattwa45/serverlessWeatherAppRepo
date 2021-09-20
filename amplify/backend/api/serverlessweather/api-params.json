@@ -1,0 +1,38 @@
+{
+  "paths": [
+    {
+      "name": "/weather",
+      "lambdaFunction": "weatherFunction",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/GET"
+        ]
+      },
+      "policyResourceName": "/weather"
+    }
+  ],
+  "resourceName": "serverlessweather",
+  "apiName": "serverlessweather",
+  "functionArns": [
+    {
+      "lambdaFunction": "weatherFunction"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-serverlessweather-dev-100837-authRole",
+    "unAuthRoleName": "amplify-serverlessweather-dev-100837-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "weatherFunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
